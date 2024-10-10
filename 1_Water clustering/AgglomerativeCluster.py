@@ -6,7 +6,7 @@ from scipy.spatial.distance import pdist, squareform
 from sklearn.cluster import AgglomerativeClustering
 
 # Read Excel file and specify worksheet name
-file_path = 'D:\\BaiduSyncdisk\\Data_FUI\\exceldata\\WQ_data.xlsx'
+file_path = 'WQ_data.xlsx'
 sheet_name = 'sheet_name'  # Replace with your worksheet name
 data = pd.read_excel(file_path, sheet_name=sheet_name)
 
